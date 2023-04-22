@@ -1,7 +1,7 @@
 # simple_shell
-Joint C - Simple Shell by Doreen and Mteeve...
+Joint C - Simple Shell project by Doreen and Mteeve...
 
-General Requrements in the project:
+General Requirements in the project:
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line

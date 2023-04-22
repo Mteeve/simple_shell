@@ -1,4 +1,4 @@
-# simple_shell
+#simple_shell
 Joint C - Simple Shell project by Doreen and Mteeve...
 
 General Requirements in the project:

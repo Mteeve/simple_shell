@@ -59,6 +59,7 @@ pid = fork();
 if (pid == -1)
 {
 perror("fork");
+
 exit(EXIT_FAILURE);
 }
 if (pid == 0)

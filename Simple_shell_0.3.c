@@ -33,7 +33,6 @@ break;
 }
 buffer[strlen(buffer) - 1] = '\0';
 
-
 char *token;
 int i = 0;
 token = strtok(buffer, " ");
@@ -44,11 +43,13 @@ token = strtok(NULL, " ");
 i++;
 }
 args[i] = NULL;
+
 if (access(args[0], X_OK) == -1)
 {
 printf("%s: command not found\n", args[0]);
 continue;
 }
+
 pid = fork();
 if (pid == -1)
 {
@@ -60,7 +61,6 @@ if (pid == 0)
 if (execvp(args[0], args) == -1)
 {
 perror("shell");
-
 exit(EXIT_FAILURE);
 }
 }
